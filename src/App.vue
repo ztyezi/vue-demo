@@ -27,9 +27,9 @@
         </Menu>
       </Header>
 
-      <Content :style="{margin: '88px 20px 0', background: '#fff', minHeight: '500px'}">
+      <Content :style="{margin: '80px 15px 0', background: '#fff', minHeight: '500px'}">
         <router-view/>
-        <BackTop :height="60" :bottom="20">
+        <BackTop :height="60" :bottom="15">
           <div>
             <div class="ivu-back-top-inner">
               <i class="ivu-icon ivu-icon-ios-arrow-up"></i>
