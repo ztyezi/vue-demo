@@ -1,8 +1,8 @@
 <template>
   <div  id="app" class="layout">
     <Layout>
-      <Header class="header" :style="{position: 'fixed', width: '100%'}">
-        <Menu class="ivu-menu-horizontal" mode="horizontal" theme="dark" active-name="1">
+      <Header :style="{position: 'fixed', width: '100%'}">
+        <Menu mode="horizontal" theme="dark" active-name="1">
           <div>
             <img class="layout-logo" src="../static/logo.png">
           </div>
@@ -53,14 +53,6 @@ export default {
 </script>
 
 <style scoped>
-    .header{
-      line-height: 50px;
-      height: 50px;
-    }
-    .ivu-menu-horizontal {
-      height: 50px;
-      line-height: 50px;
-    }
     .layout{
         border: 1px solid #d7dde4;
         background: #f5f7f9;
@@ -74,7 +66,7 @@ export default {
         border-radius: 3px;
         float: left;
         position: relative;
-        top: 10px;
+        top: 15px;
         left: 20px;
     }
     .layout-nav{
